@@ -1,0 +1,23 @@
+/* Section héros avec image de fond */
+.hero {
+  background: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1350&q=80') no-repeat center center;
+  background-size: cover;
+  height: 70vh;
+  padding: 50px;
+}
+
+/* Texte clair sur image */
+.hero h1, .hero p {
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.8);
+}
+
+/* Pied de page simple */
+footer {
+  background-color: #222;
+}
+
+/* Pour les cartes */
+.card-img-top {
+  object-fit: cover;
+  height: 200px;
+}
